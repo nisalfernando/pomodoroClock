@@ -1,3 +1,6 @@
+/* Variables */
+$laptop: "(min-width: 1020px)";
+
 /* MODAL */
 .modal-container {
   display: inline-flex;
