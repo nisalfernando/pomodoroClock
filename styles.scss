@@ -1,6 +1,11 @@
 /* Variables */
 $laptop: "(min-width: 1020px)";
 
+* {
+  background-color: tomato;
+  font-family: "Monserrat", sans-serif;
+}
+
 /* MODAL */
 .modal-container {
   display: inline-flex;
