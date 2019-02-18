@@ -1,0 +1,32 @@
+/* Variables */
+* {
+  background-color: tomato;
+  font-family: "Monserrat", sans-serif;
+}
+
+/* MODAL */
+.modal-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.material-icons.sm-12 {
+  font-size: 20px;
+}
+
+.modal-about {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.modal-cancel {
+  background-color: white;
+}
+/*# sourceMappingURL=styles.css.map */
