@@ -1,6 +1,13 @@
 /* Variables */
 $laptop: "(min-width: 1020px)";
 
+/* MIXIXS */
+@mixin mediaQueries($arg) {
+  @media screen and (#{$arg}) {
+    @content;
+  }
+}
+
 * {
   background-color: tomato;
   font-family: "Monserrat", sans-serif;
