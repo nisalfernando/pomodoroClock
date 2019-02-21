@@ -26,9 +26,11 @@ $laptop: "(min-width: 1020px)";
 .modal-btn {
   background-color: transparent;
   border: none;
+  margin: 5px 5px 0 0;
+  opacity: 0.85;
 }
 
-.material-icons.sm-12 {
+.material-icons .sm-12 {
   font-size: 20px;
 }
 
