@@ -37,19 +37,15 @@ $laptop: "(min-width: 1020px)";
 .modal-about {
   background-color: white;
   border: 2px solid black;
-}
-
-.material-icons .sm-12 {
-  font-size: 20px;
-}
-
-.modal-about {
-  background-color: white;
-  border: 2px solid black;
   border-radius: 5px;
   margin: 0 auto;
+  padding: 0.5em;
 }
 
 .modal-cancel {
   background-color: white;
+}
+
+.material-icons .sm-12 {
+  font-size: 20px;
 }
