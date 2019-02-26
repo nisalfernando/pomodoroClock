@@ -14,8 +14,8 @@
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   width: 100%;
 }
 
@@ -50,5 +50,7 @@
 
 .modal-title {
   background-color: white;
+  color: royalblue;
+  font-size: 1.2em;
 }
 /*# sourceMappingURL=styles.css.map */
