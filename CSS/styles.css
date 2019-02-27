@@ -52,6 +52,8 @@
   background-color: white;
   color: royalblue;
   font-size: 1.2em;
+  padding: 0.5em;
+  text-decoration: underline;
 }
 
 .user-stories {
