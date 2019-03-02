@@ -61,4 +61,8 @@
   font-style: italic;
   padding: 0.5em 2em 0.5em 2.5em;
 }
+
+.clockface {
+  background-color: inherit;
+}
 /*# sourceMappingURL=styles.css.map */
