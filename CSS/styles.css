@@ -67,6 +67,11 @@
   margin-top: 1em;
 }
 
+.modal-text {
+  background-color: white;
+  margin: 0.5em;
+}
+
 .clockface {
   background-color: inherit;
   font-size: inherit;
