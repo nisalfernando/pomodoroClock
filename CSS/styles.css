@@ -76,6 +76,11 @@
   background-color: white;
 }
 
+.link {
+  background-color: white;
+  color: royalblue;
+}
+
 .clockface {
   background-color: inherit;
   font-size: inherit;
