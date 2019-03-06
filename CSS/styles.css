@@ -81,6 +81,14 @@
   color: royalblue;
 }
 
+.modal-about::-webkit-backdrop {
+  background: darkgray;
+}
+
+.modal-about::backdrop {
+  background: darkgray;
+}
+
 .clockface {
   background-color: inherit;
   font-size: inherit;

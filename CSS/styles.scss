@@ -85,7 +85,9 @@ $laptop: "(min-width: 1020px)";
   color: royalblue;
 }
 
-
+.modal-about::backdrop {
+  background:darkgray;
+}
 
 .clockface {
   background-color: inherit;
