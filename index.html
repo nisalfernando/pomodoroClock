@@ -1,84 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="CSS/styles.css" />
-    <title>Pomodoro Clock</title>
-  </head>
-  <body>
-    <!-- Modal -->
-    <div class="modal-container">
-      <button>
-        <i class="material-icons md-14">info_outline</i>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="CSS/styles.css" />
+  <title>Pomodoro Clock</title>
+</head>
+
+<body>
+  <!-- Modal -->
+  <div class="modal-container">
+    <button>
+      <i class="material-icons md-14">info_outline</i>
+    </button>
+    <dialog class="modal-about">
+      <button type="button" name="button" class="modal-cancel">
+        <i class="material-icons sm-12">clear</i>
       </button>
-      <dialog class="modal-about">
-        <button type="button" name="button" class="modal-cancel">
-          <i class="material-icons sm-12">clear</i>
-        </button>
-        <h4 class="modal-title">Pomodoro Clock</h4>
-        <p class="modal-text copy">
-          This is an Advance Front End Developer project from the FreeCodeCamp
-          curriculum. The user stories to be completed are:
-        </p>
-        <ul class="user-stories">
-          <li class="story copy">
-            I can start a 25 minute pomodoro, and the timer will go off once 25
-            minutes has elapsed.
-          </li>
-          <li class="story copy">
-            I can reset the clock for my next pomodoro.
-          </li>
-          <li class="story copy">
-            I can customize the length of each pomodoro.
-          </li>
-        </ul>
-        <!-- Add the description here after finishing project -->
-      </dialog>
-    </div>
-
-    <!-- Title -->
-    <h3 class="title">Pomodoro Timer</h3>
-
-    <!-- Clockface -->
-    <section class="break-and-tally">
-      <div class="breakTimer">
-        <h3 class="subtitle">BREAK</h3>
-        <p class="break-clockface">
-          <span id="break-mins" class="clockface">5</span>
-          <span class="clockface">:</span>
-          <span id="break-secs" class="clockface">00</span>
-        </p>
-        <button type="button" class="increment-btn">+</button>
-        <button type="button" class="increment-btn">-</button>
-      </div>
-
-      <div class="tally-container">
-        <h3 class="subtitle">TALLY</h3>
-        <p class="tally"><span class="tally-count">0</span></p>
-      </div>
-    </section>
-
-    <main class="main-timer">
-      <h2 class="subtitle">WORK</h2>
-      <p class="main-clockface">
-        <span id="main-min" class="clockface">25</span>
-        <span class="clockface">:</span>
-        <span id="main-secs" class="clockface">00</span>
+      <h4 class="modal-title">Pomodoro Clock</h4>
+      <p class="modal-text copy">
+        This is an Advance Front End Developer project from the FreeCodeCamp
+        curriculum. The user stories to be completed are:
       </p>
-      <button type="button" name="interval" class="increment-btn">+</button>
-      <button>-</button>
-    </main>
+      <ul class="user-stories">
+        <li class="story copy">
+          I can start a 25 minute pomodoro, and the timer will go off once 25
+          minutes has elapsed.
+        </li>
+        <li class="story copy">
+          I can reset the clock for my next pomodoro.
+        </li>
+        <li class="story copy">
+          I can customize the length of each pomodoro.
+        </li>
+      </ul>
+      <!-- Add the description here after finishing project -->
+    </dialog>
+  </div>
 
-    <div class="action-btn-container">
-      <button type="button" name="button" class="action-btn start">
-        START
-      </button>
-      <button class="action-btn pause" disabled>PAUSE</button>
+  <!-- Title -->
+  <h3 class="title">Pomodoro Timer</h3>
+
+  <!-- Clockface -->
+  <section class="break-and-tally">
+    <div class="breakTimer">
+      <h3 class="subtitle">BREAK</h3>
+      <p class="break-clockface">
+        <span id="break-mins" class="clockface">5</span>
+        <span class="clockface">:</span>
+        <span id="break-secs" class="clockface">00</span>
+      </p>
+      <button type="button" class="increment-btn">+</button>
+      <button type="button" class="increment-btn">-</button>
     </div>
 
-    <!-- Footer -->
-    <div class="footer"></div>
-  </body>
+    <div class="tally-container">
+      <h3 class="subtitle">TALLY</h3>
+      <p class="tally"><span class="tally-count">0</span></p>
+    </div>
+  </section>
+
+  <main class="main-timer">
+    <h2 class="subtitle">WORK</h2>
+    <p class="main-clockface">
+      <span id="main-min" class="clockface">25</span>
+      <span class="clockface">:</span>
+      <span id="main-secs" class="clockface">00</span>
+    </p>
+    <button type="button" name="interval" class="increment-btn">+</button>
+    <button type='button' name="interval" class="increment-btn">-</button>
+  </main>
+
+  <div class="action-btn-container">
+    <button type="button" name="button" class="action-btn start">START</button>
+    <button class="action-btn pause" disabled>PAUSE</button>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer"></div>
+</body>
+
 </html>
