@@ -74,11 +74,13 @@
 
 .copy {
   background-color: white;
+  font-size: 1.1em;
 }
 
 .link {
   background-color: white;
   color: royalblue;
+  font-weight: 600;
 }
 
 .modal-about::-webkit-backdrop {
