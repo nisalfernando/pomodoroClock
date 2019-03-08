@@ -81,14 +81,17 @@
   background-color: white;
   color: royalblue;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .modal-about::-webkit-backdrop {
   background: darkgray;
+  opacity: 0.85;
 }
 
 .modal-about::backdrop {
   background: darkgray;
+  opacity: 0.85;
 }
 
 .clockface {
