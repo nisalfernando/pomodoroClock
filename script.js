@@ -7,3 +7,4 @@ var cancel = document.getElementsByClassName("modal-cancel");
 
 var breakMins = document.getElementById("break-mins");
 var breakSecs = document.getElementById("break-secs");
+var mainMins = document.getElementById("main-mins");
