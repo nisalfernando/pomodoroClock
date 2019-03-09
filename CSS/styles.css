@@ -94,6 +94,12 @@
   opacity: 0.85;
 }
 
+/* CONTENT OUTLINE */
+.title {
+  background-color: white;
+  border: 2px solid black;
+}
+
 .clockface {
   background-color: inherit;
   font-size: inherit;
