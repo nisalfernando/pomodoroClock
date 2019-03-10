@@ -101,7 +101,10 @@ $laptop: "(min-width: 1020px)";
   font-size: 1.5em;
 }
 
-
+.break-and-tally {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .clockface {
   background-color: inherit;
