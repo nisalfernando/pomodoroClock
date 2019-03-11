@@ -16,3 +16,10 @@ var pauseBtn = document.querySelector(".pause");
 var resetBtn = document.querySelector(".reset");
 
 var amendBtn = document.querySelectorAll(".increment-btn");
+
+/** Variables **/
+var mainMinutes = '';
+var mainDeadline = '';
+var timeInterval = '';
+var breakMinutes = '';
+var breakDeadline = '';
