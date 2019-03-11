@@ -23,3 +23,9 @@ var mainDeadline = '';
 var timeInterval = '';
 var breakMinutes = '';
 var breakDeadline = '';
+
+/** Methods **/
+function timeRemaining(deadline) {
+  console.log(Date.parse(deadline), date.parse(new Date()));
+  var t = date.parse(deadline) - Date.parse(new Date());
+}
