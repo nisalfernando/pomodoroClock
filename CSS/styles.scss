@@ -109,6 +109,8 @@ $laptop: "(min-width: 1020px)";
 .break-and-tally {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .clockface {
