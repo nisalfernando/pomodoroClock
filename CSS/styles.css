@@ -102,6 +102,9 @@
   font-size: 1.5em;
   margin: 0.5em auto;
   max-width: 225px;
+  padding: 0.5em;
+  text-align: center;
+  width: 75%;
 }
 
 .break-and-tally {
