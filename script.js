@@ -28,4 +28,6 @@ var breakDeadline = '';
 function timeRemaining(deadline) {
   console.log(Date.parse(deadline), date.parse(new Date()));
   var t = date.parse(deadline) - Date.parse(new Date());
+  var seconds = Math.floor((t / 1000) % 60);
+  var minutes = Math.floor((t / 1000 / 60) % 60);
 }
