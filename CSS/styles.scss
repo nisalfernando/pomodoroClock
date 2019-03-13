@@ -111,6 +111,8 @@ $laptop: "(min-width: 1020px)";
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
+  max-width: 375px;
+  width: 95%;
 }
 
 .clockface {
