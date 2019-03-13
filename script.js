@@ -1,9 +1,9 @@
 /*****************/
 /*** Selectors ***/
 
-var modalBtn = document.getElementsByClassName("modal-btn");
-var modal = document.getElementsByClassName("modal-about");
-var cancel = document.getElementsByClassName("modal-cancel");
+const modalBtn = document.getElementsByClassName("modal-btn");
+const modal = document.getElementsByClassName("modal-about");
+const cancel = document.getElementsByClassName("modal-cancel");
 
 var breakMins = document.getElementById("break-mins");
 var breakSecs = document.getElementById("break-secs");
@@ -36,4 +36,10 @@ function timeRemaining(deadline) {
     'minutes': minutes,
     'seconds': seconds
   };
+}
+
+function initClock() {
+  const currentTime = new Date();
+  mainMinutes = mainMins.innerHTML;
+  mainDeadline = new Date(currentTime.getTime() + (mainMinutes * 60 * 1000));
 }
