@@ -30,4 +30,10 @@ function timeRemaining(deadline) {
   var t = date.parse(deadline) - Date.parse(new Date());
   var seconds = Math.floor((t / 1000) % 60);
   var minutes = Math.floor((t / 1000 / 60) % 60);
+
+  return {
+    'total': t,
+    'minutes': minutes,
+    'seconds': seconds
+  };
 }
