@@ -121,6 +121,13 @@
   width: 95%;
 }
 
+@media screen and ((min-width: 1020px)) {
+  .break-and-tally {
+    margin: 1em auto;
+    max-width: 400px;
+  }
+}
+
 .clockface {
   background-color: inherit;
   font-size: inherit;

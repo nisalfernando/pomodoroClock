@@ -113,6 +113,10 @@ $laptop: "(min-width: 1020px)";
   margin: 0 auto;
   max-width: 375px;
   width: 95%;
+  @include mediaQueries($laptop) {
+    margin: 1em auto;
+    max-width: 400px;
+  }
 }
 
 .clockface {
