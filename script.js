@@ -5,24 +5,24 @@ const modalBtn = document.getElementsByClassName("modal-btn");
 const modal = document.getElementsByClassName("modal-about");
 const cancel = document.getElementsByClassName("modal-cancel");
 
-var breakMins = document.getElementById("break-mins");
-var breakSecs = document.getElementById("break-secs");
-var mainMins = document.getElementById("main-mins");
-var mainSecs = document.getElementById("main-secs");
-var tally = document.querySelector('.tally-count');
+const breakMins = document.getElementById("break-mins");
+const breakSecs = document.getElementById("break-secs");
+const mainMins = document.getElementById("main-mins");
+const mainSecs = document.getElementById("main-secs");
+const tally = document.querySelector('.tally-count');
 
-var startBtn = document.querySelector(".start");
-var pauseBtn = document.querySelector(".pause");
-var resetBtn = document.querySelector(".reset");
+const startBtn = document.querySelector(".start");
+const pauseBtn = document.querySelector(".pause");
+const resetBtn = document.querySelector(".reset");
 
-var amendBtn = document.querySelectorAll(".increment-btn");
+const amendBtn = document.querySelectorAll(".increment-btn");
 
 /** Variables **/
-var mainMinutes = '';
-var mainDeadline = '';
-var timeInterval = '';
-var breakMinutes = '';
-var breakDeadline = '';
+const mainMinutes = '';
+const mainDeadline = '';
+const timeInterval = '';
+const breakMinutes = '';
+const breakDeadline = '';
 
 /** Methods **/
 function timeRemaining(deadline) {
@@ -44,6 +44,6 @@ function initClock() {
   mainDeadline = new Date(currentTime.getTime() + (mainMinutes * 60 * 1000));
   timeInterval = setInterval(function () {
     let x = timeRemaining(mainDeadline);
-    mainMins.innerHTML = ('0' +.minutes).slice(-2);
+    mainMins.innerHTML = ('0' + x.minutes).slice(-2);
   });
 }
