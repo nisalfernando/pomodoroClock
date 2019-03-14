@@ -42,4 +42,8 @@ function initClock() {
   const currentTime = new Date();
   mainMinutes = mainMins.innerHTML;
   mainDeadline = new Date(currentTime.getTime() + (mainMinutes * 60 * 1000));
+  timeInterval = setInterval(function () {
+    let x = timeRemaining(mainDeadline);
+    mainMins.innerHTML = ('0' +.minutes).slice(-2);
+  });
 }
