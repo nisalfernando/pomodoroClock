@@ -119,6 +119,13 @@ $laptop: "(min-width: 1020px)";
   }
 }
 
+/* BREAK TIMER */
+.breakTimer {
+  display: flex;
+  flex-grow: 1;
+  
+}
+
 .clockface {
   background-color: inherit;
   font-size: inherit;
