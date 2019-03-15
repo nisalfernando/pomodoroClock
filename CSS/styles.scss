@@ -123,7 +123,9 @@ $laptop: "(min-width: 1020px)";
 .breakTimer {
   display: flex;
   flex-grow: 1;
-  
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 200px;
 }
 
 .clockface {
