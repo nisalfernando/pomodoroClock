@@ -45,5 +45,6 @@ function initClock() {
   timeInterval = setInterval(function () {
     let x = timeRemaining(mainDeadline);
     mainMins.innerHTML = ('0' + x.minutes).slice(-2);
+    mainSecs.innerHTML = ('0' + x.seconds).slice(-2);
   });
 }
