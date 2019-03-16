@@ -46,5 +46,14 @@ function initClock() {
     let x = timeRemaining(mainDeadline);
     mainMins.innerHTML = ('0' + x.minutes).slice(-2);
     mainSecs.innerHTML = ('0' + x.seconds).slice(-2);
-  });
+    if (x.total <= 0) {
+      clearInterval(timeInterval);
+      increment(tally);
+      if (tally.innerHTML % 4 == 0) {
+        breakMins.innerHTML = 20;
+      }
+      alert('Time for a break');
+      initBreak();
+    }
+  }, 1000);
 }
