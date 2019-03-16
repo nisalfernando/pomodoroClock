@@ -126,6 +126,11 @@ $laptop: "(min-width: 1020px)";
   flex-wrap: wrap;
   justify-content: center;
   max-width: 200px;
+  position: relative;
+  right: 10px;
+  @include mediaQueries($laptop) {
+    max-width: 200px;
+  };
 }
 
 .clockface {
