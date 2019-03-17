@@ -57,3 +57,21 @@ function initClock() {
     }
   }, 1000);
 }
+
+function initBreak() {
+  const currentTime = new Date();
+  breakMinutes = breakMins.innerHTML;
+  breakDeadline = new Date(currentTime.getTime() + (breakMinutes * 60 * 1000));
+  timeInterval = setInterval(function () {
+    let y = timeReamining(breakDeadline);
+    breakMins.innerHTML = ('0' + y.minutes).slice(-2);
+    breakSecs.innerHTML = ('0' + y.seconds).slice(-2);
+    if (y.toatal <= 0) {
+      clearInterval(timeInterval);
+      reset();
+      alert('Time for work');
+      initClock();
+      breakMins.innerHTML = 5;
+    }
+  }, 1000);
+}
