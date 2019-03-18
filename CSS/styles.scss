@@ -155,5 +155,16 @@ $laptop: "(min-width: 1020px)";
   font-size: inherit;
   padding: 0;
   margin: 0;
-  display: inline-block;
+  display:inline-block;
+}
+
+.increment-btn {
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 40px;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0.25em;
+  width: 40px;
 }
