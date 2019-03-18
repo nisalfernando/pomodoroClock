@@ -75,3 +75,12 @@ function initBreak() {
     }
   }, 1000);
 }
+
+function reset() {
+  clearInterval(timeInterval);
+  mainMins.innerHTML = 25;
+  mainSecs.innerHTML = ('0' + '0').slice(-2);
+  breakMins.innerHTML = 5;
+  breakSecs.innerHTML = ('0' + '0').slice(-2);
+  console.log('Reset the clock');
+}
