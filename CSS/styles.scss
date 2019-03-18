@@ -168,3 +168,15 @@ $laptop: "(min-width: 1020px)";
   margin: 0.25em;
   width: 40px;
 }
+
+/* TALLY COUNTER */
+.tally-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100px;
+  position: relative;
+  right: 10px;
+  width: 75px;
+}
