@@ -88,3 +88,7 @@ function reset() {
 function increment(element) {
   element.innerHTML = parseInt(element.innerHTML) + 1;
 }
+
+function decrement(element) {
+  element.innerHTML = parseInt(element.innerHTML) - 1;
+}
