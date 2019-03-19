@@ -84,3 +84,7 @@ function reset() {
   breakSecs.innerHTML = ('0' + '0').slice(-2);
   console.log('Reset the clock');
 }
+
+function increment(element) {
+  element.innerHTML = parseInt(element.innerHTML) + 1;
+}
