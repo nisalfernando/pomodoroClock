@@ -92,3 +92,8 @@ function increment(element) {
 function decrement(element) {
   element.innerHTML = parseInt(element.innerHTML) - 1;
 }
+
+/* Events */
+modalBtn[0].addEventListener('click', function () {
+  modal[0].showModal();
+});
