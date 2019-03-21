@@ -97,3 +97,7 @@ function decrement(element) {
 modalBtn[0].addEventListener('click', function () {
   modal[0].showModal();
 });
+
+cancel[0].addEventListener('click', function () {
+  modal[0].close();
+});
