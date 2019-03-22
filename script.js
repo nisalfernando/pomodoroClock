@@ -101,3 +101,7 @@ modalBtn[0].addEventListener('click', function () {
 cancel[0].addEventListener('click', function () {
   modal[0].close();
 });
+
+amendBtns[0].addEventListener('click', function () {
+  increment(breakMins);
+});
