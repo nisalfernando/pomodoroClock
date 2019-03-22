@@ -218,4 +218,11 @@
   top: 5px;
   width: 50px;
 }
+
+.tally-count {
+  background-color: inherit;
+  font-size: 2em;
+  position: relative;
+  top: 7px;
+}
 /*# sourceMappingURL=styles.css.map */
