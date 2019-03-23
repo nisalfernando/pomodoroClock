@@ -105,3 +105,7 @@ cancel[0].addEventListener('click', function () {
 amendBtns[0].addEventListener('click', function () {
   increment(breakMins);
 });
+
+amendBtns[1].addEventListener('click', function () {
+  decrement(breakMins);
+});
