@@ -198,3 +198,13 @@ $laptop: "(min-width: 1020px)";
   position: relative;
   top: 7px;
 }
+
+/* MAIN TIMER */
+.main-timer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em auto;
+  max-width: 350px;
+  width: 95%;
+}
