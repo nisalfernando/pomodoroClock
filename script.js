@@ -113,3 +113,7 @@ amendBtns[1].addEventListener('click', function () {
 amendBtns[2].addEventListener('click', function () {
   increment(mainMins);
 });
+
+amendBtns[3].addEventListener('click', function () {
+  decrement(mainMins);
+});
