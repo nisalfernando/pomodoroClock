@@ -224,4 +224,6 @@ $laptop: "(min-width: 1020px)";
 .action-btn-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5em auto;
 }
