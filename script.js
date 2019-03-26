@@ -117,3 +117,5 @@ amendBtns[2].addEventListener('click', function () {
 amendBtns[3].addEventListener('click', function () {
   decrement(mainMins);
 });
+
+resetBtn.addEventListener('click', reset);
