@@ -219,3 +219,9 @@ $laptop: "(min-width: 1020px)";
   margin: 0 1em;
   width: 200px;
 }
+
+/* ACTION BUTTONS */
+.action-btn-container {
+  display: flex;
+  flex-wrap: wrap;
+}
