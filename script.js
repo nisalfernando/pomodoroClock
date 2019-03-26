@@ -119,3 +119,5 @@ amendBtns[3].addEventListener('click', function () {
 });
 
 resetBtn.addEventListener('click', reset);
+
+startBtn.addEventListener('click', initClock);
