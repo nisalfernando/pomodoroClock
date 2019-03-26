@@ -263,5 +263,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0.5em auto;
+  max-width: 275px;
+  width: 95%;
 }
 /*# sourceMappingURL=styles.css.map */
