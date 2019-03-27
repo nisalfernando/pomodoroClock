@@ -266,4 +266,8 @@
   max-width: 275px;
   width: 95%;
 }
+
+.action-btn {
+  border: 1px solid black;
+}
 /*# sourceMappingURL=styles.css.map */
