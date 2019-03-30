@@ -287,4 +287,9 @@
 .reset {
   background-color: yellow;
 }
+
+/* FOOTER */
+.footer {
+  bottom: 0;
+}
 /*# sourceMappingURL=styles.css.map */
