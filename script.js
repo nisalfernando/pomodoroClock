@@ -15,7 +15,7 @@ const startBtn = document.querySelector(".start");
 const pauseBtn = document.querySelector(".pause");
 const resetBtn = document.querySelector(".reset");
 
-const amendBtn = document.querySelectorAll(".increment-btn");
+const amendBtns = document.querySelectorAll(".increment-btn");
 
 /** Variables **/
 const mainMinutes = '';
