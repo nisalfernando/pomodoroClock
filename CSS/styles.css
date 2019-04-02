@@ -294,6 +294,8 @@
   bottom: 0;
   height: 30px;
   left: 0;
+  margin-bottom: 10px;
+  position: initial;
 }
 
 .footer-link {
