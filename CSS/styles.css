@@ -296,6 +296,8 @@
   left: 0;
   margin-bottom: 10px;
   position: initial;
+  text-align: center;
+  width: 100%;
 }
 
 .footer-link {
