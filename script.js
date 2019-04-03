@@ -40,7 +40,7 @@ function timeRemaining(deadline) {
 
 function initClock() {
   const currentTime = new Date();
-  mainMinutes = mainMins.innerText;
+  mainMinutes = mainMins.innerHTML;
   mainDeadline = new Date(currentTime.getTime() + (mainMinutes * 60 * 1000));
   timeInterval = setInterval(function () {
     let x = timeRemaining(mainDeadline);
