@@ -18,15 +18,15 @@ const resetBtn = document.querySelector(".reset");
 const amendBtns = document.querySelectorAll(".increment-btn");
 
 /** Variables **/
-const mainMinutes = '';
-const mainDeadline = '';
-const timeInterval = '';
-const breakMinutes = '';
-const breakDeadline = '';
+let mainMinutes = '';
+let mainDeadline = '';
+let timeInterval = '';
+let breakMinutes = '';
+let breakDeadline = '';
 
 /** Methods **/
 function timeRemaining(deadline) {
-  console.log(Date.parse(deadline), date.parse(new Date()));
+  console.log(Date.parse(deadline), Date.parse(new Date()));
   var t = date.parse(deadline) - Date.parse(new Date());
   var seconds = Math.floor((t / 1000) % 60);
   var minutes = Math.floor((t / 1000 / 60) % 60);
