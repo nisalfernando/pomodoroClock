@@ -1,4 +1,6 @@
 # pomodoroClock
 
-This clock is used for productivity. You can concentrate one task with defined time and take defined brake.
-Easy to use.
+# Description
+  -> This clock is can be used for productivity. 
+  -> You can concentrate one task with predefined time and take predefined brakes.
+  -> Easy to use.
